@@ -1,0 +1,177 @@
+{
+  "users": [
+    {
+      "id": "user-admin",
+      "name": "Ayesha Khan",
+      "email": "admin@courtlink.local",
+      "role": "admin",
+      "playerId": null
+    },
+    {
+      "id": "user-ali",
+      "name": "Ali Raza",
+      "email": "ali@courtlink.local",
+      "role": "player",
+      "playerId": "player-ali"
+    },
+    {
+      "id": "user-hamza",
+      "name": "Hamza Tariq",
+      "email": "hamza@courtlink.local",
+      "role": "player",
+      "playerId": "player-hamza"
+    }
+  ],
+  "players": [
+    {
+      "id": "player-ali",
+      "name": "Ali Raza",
+      "phone": "0300-1111111",
+      "email": "ali@courtlink.local",
+      "handedness": "right",
+      "active": true
+    },
+    {
+      "id": "player-hamza",
+      "name": "Hamza Tariq",
+      "phone": "0300-2222222",
+      "email": "hamza@courtlink.local",
+      "handedness": "left",
+      "active": true
+    },
+    {
+      "id": "player-usman",
+      "name": "Usman Javed",
+      "phone": "0300-3333333",
+      "email": "usman@courtlink.local",
+      "handedness": "right",
+      "active": true
+    },
+    {
+      "id": "player-bilal",
+      "name": "Bilal Saeed",
+      "phone": "0300-4444444",
+      "email": "bilal@courtlink.local",
+      "handedness": "right",
+      "active": true
+    }
+  ],
+  "matches": [
+    {
+      "id": "match-1",
+      "playerOneId": "player-ali",
+      "playerTwoId": "player-hamza",
+      "winnerId": "player-ali",
+      "matchType": "singles",
+      "status": "completed",
+      "playedAt": "2026-03-01",
+      "createdByUserId": "user-admin",
+      "notes": "Evening ladder match"
+    },
+    {
+      "id": "match-2",
+      "playerOneId": "player-hamza",
+      "playerTwoId": "player-usman",
+      "winnerId": "player-hamza",
+      "matchType": "singles",
+      "status": "completed",
+      "playedAt": "2026-03-04",
+      "createdByUserId": "user-admin",
+      "notes": ""
+    },
+    {
+      "id": "match-3",
+      "playerOneId": "player-ali",
+      "playerTwoId": "player-usman",
+      "winnerId": "player-usman",
+      "matchType": "singles",
+      "status": "completed",
+      "playedAt": "2026-03-09",
+      "createdByUserId": "user-admin",
+      "notes": "Weekend challenge"
+    },
+    {
+      "id": "match-4",
+      "playerOneId": "player-bilal",
+      "playerTwoId": "player-ali",
+      "winnerId": "player-ali",
+      "matchType": "singles",
+      "status": "completed",
+      "playedAt": "2026-03-12",
+      "createdByUserId": "user-admin",
+      "notes": ""
+    }
+  ],
+  "matchSets": [
+    {
+      "id": "set-1",
+      "matchId": "match-1",
+      "setNumber": 1,
+      "playerOneGames": 6,
+      "playerTwoGames": 4
+    },
+    {
+      "id": "set-2",
+      "matchId": "match-1",
+      "setNumber": 2,
+      "playerOneGames": 3,
+      "playerTwoGames": 6
+    },
+    {
+      "id": "set-3",
+      "matchId": "match-1",
+      "setNumber": 3,
+      "playerOneGames": 6,
+      "playerTwoGames": 2
+    },
+    {
+      "id": "set-4",
+      "matchId": "match-2",
+      "setNumber": 1,
+      "playerOneGames": 6,
+      "playerTwoGames": 3
+    },
+    {
+      "id": "set-5",
+      "matchId": "match-2",
+      "setNumber": 2,
+      "playerOneGames": 7,
+      "playerTwoGames": 5
+    },
+    {
+      "id": "set-6",
+      "matchId": "match-3",
+      "setNumber": 1,
+      "playerOneGames": 4,
+      "playerTwoGames": 6
+    },
+    {
+      "id": "set-7",
+      "matchId": "match-3",
+      "setNumber": 2,
+      "playerOneGames": 6,
+      "playerTwoGames": 3
+    },
+    {
+      "id": "set-8",
+      "matchId": "match-3",
+      "setNumber": 3,
+      "playerOneGames": 3,
+      "playerTwoGames": 6
+    },
+    {
+      "id": "set-9",
+      "matchId": "match-4",
+      "setNumber": 1,
+      "playerOneGames": 1,
+      "playerTwoGames": 6
+    },
+    {
+      "id": "set-10",
+      "matchId": "match-4",
+      "setNumber": 2,
+      "playerOneGames": 2,
+      "playerTwoGames": 6
+    }
+  ]
+}
